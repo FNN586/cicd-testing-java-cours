@@ -50,7 +50,7 @@ node {
 
         stage('Run App') {
             withCredentials([usernamePassword(credentialsId: 'DockerhubCredentials', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
-                runApp(CONTAINER_NAME, CONTAINER_TAG, USERNAME, HTTP_PORT, ENV_NAME)
+                runApp(CONTAINER_NAME, CONTAINER_TAG, USERNAME, HTTP_PORT,ENV_NAME)
 
             }
         }

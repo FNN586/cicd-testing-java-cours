@@ -5,6 +5,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Locale;
+
 class SolutionFormatterTest {
 
   private SolutionFormatter solutionFormatter;
@@ -23,7 +25,7 @@ class SolutionFormatterTest {
     final String result = solutionFormatter.format(number);
 
     // THEN
-    assertThat(result).isEqualTo("1 234 567 890");
+    assertThat(result).isEqualTo(String.format(Locale.FRENCH, "%,d", number));
   }
 
 }

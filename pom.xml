@@ -14,7 +14,7 @@
     <springboot.version>2.7.0</springboot.version>
     <sonar.projectKey>tech.zerofiltre.testing:calculator</sonar.projectKey>
     <sonar.host.url>http://localhost:9000</sonar.host.url>
-    <sonar.login>sonar</sonar.login>
+    <sonar.login>squ_b51ed92f90d28b173f9353f534d869601b66c522</sonar.login>
   </properties>
 
   <parent>

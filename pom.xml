@@ -8,7 +8,7 @@
   <properties>
     <dep.junit.version>5.5.2</dep.junit.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
     <bootstrap.version>4.3.1</bootstrap.version>
     <springboot.version>2.2.0.RELEASE</springboot.version>
@@ -115,7 +115,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.2</version>
+        <version>0.8.12</version>
         <executions>
           <execution>
             <goals>
